@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 1px;
+	font-family: monospace;
+}
+body{
+	background-image: linear-gradient(#FF550B,#1B4EFA);
+	min-height: 100vh;
+}
+.container{
+	max-width: 800px;
+	margin: auto;
+	padding: 10px;
+}
+.txtb{
+	width: 100%;
+	border: none;
+	background: none;
+	padding: 10px;
+	border-bottom: 2px solid;
+	font-size: 19px;
+	outline: none;
+}
+h3{
+	margin: 10px;
+}
+.task{
+	width: 100%;
+	background: rgba(170,250,100,0.4);
+	padding: 13px;
+	margin: 6px 0;
+}
+.task i{
+	float: right;
+	margin-left: 10px;
+	cursor: pointer; 
+}
+.comp .task{
+	background: rgba(0,1,1,0.5);
+	color: #fff;
+}
+.notcomp{
+	padding-bottom: 10px;
+	border-bottom: 2px solid;
+	padding-bottom: 40px; 
+}
